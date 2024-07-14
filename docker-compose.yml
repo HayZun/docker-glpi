@@ -21,7 +21,7 @@ services:
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
       - /var/www/html/glpi/:/var/www/html/glpi
-      - ./xivoglpi:/var/www/html/glpi/plugins/xivoglpi
+      - ./xivo:/var/www/html/glpi/plugins/xivo
     environment:
       - TIMEZONE=Europe/Brussels
     restart: always
