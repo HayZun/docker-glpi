@@ -7,6 +7,6 @@ docker-compose up -d
 
 # Config
 
-log on http://localhost->install->Mysql/glpi_user/glpi->glpidb
+log on http://localhost->install->MariaDB/glpi_user/glpi->glpidb
 
 Use cred : glpi/glpi
